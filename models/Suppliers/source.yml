@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: landing
+    database: PHEUSEBIA_ANALYTICS
+    schema: Public
+    tables:
+      - name: Suppliers
+        identifier: Suppliers
+
+      - name: Emails
+        identifier: Emails 
+
+      - name: Fusion_Suppliers
+        identifier: Fusion_Suppliers
+        
